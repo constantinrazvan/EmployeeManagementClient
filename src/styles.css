@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container, .employee-list-container, .employee-form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  button {
+    margin-right: 5px;
+  }
+  

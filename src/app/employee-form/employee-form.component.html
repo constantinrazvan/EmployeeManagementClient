@@ -1,0 +1,21 @@
+<!-- src/app/employee-form/employee-form.component.html -->
+<form (ngSubmit)="saveEmployee()">
+    <div>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" [(ngModel)]="employee.firstName" name="firstName" required />
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" [(ngModel)]="employee.lastName" name="lastName" required />
+    </div>
+    <div>
+      <label for="position">Position:</label>
+      <input type="text" id="position" [(ngModel)]="employee.position" name="position" required />
+    </div>
+    <div>
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" [(ngModel)]="employee.salary" name="salary" required />
+    </div>
+    <button type="submit">Save</button>
+  </form>
+  
